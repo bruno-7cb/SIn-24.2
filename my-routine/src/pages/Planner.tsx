@@ -6,8 +6,8 @@ import Registration from "../components/Registration";
 
 export default function Planner() {
     return (
-        <main className="container bg-slate-300 mx-auto px-4 py-6 columns-2 gap-6">
-            <Header />
+        <main className="grid grid-cols-2  mx-auto px-4 py-6 h-screen w-1/2 bg-slate-300  ">
+            <Header  />
             <Registration />
             <CardList title="morning" />
             <CardList title="afternoon" />

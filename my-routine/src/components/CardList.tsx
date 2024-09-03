@@ -24,7 +24,7 @@ type CardListProps = {
     };
   
     return (
-      <section>
+      <section className="row-span-3">
         <h2>{title}</h2>
         <ul>
           {items.map((item, index) => (

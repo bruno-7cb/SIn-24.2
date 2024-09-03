@@ -10,7 +10,7 @@ export default function Header() {
     };
   
     return (
-      <>
+      <header className="col-span-full">
         <h1
           contentEditable
           suppressContentEditableWarning={true}
@@ -18,6 +18,6 @@ export default function Header() {
         >
           {title}
         </h1>
-      </>
+      </header>
     );
   }

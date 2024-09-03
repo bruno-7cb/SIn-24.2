@@ -1,6 +1,6 @@
 export default function Registration() {
   return (
-    <>
+    <div className="col-span-full">
       <label htmlFor="date">
         Date
         <input
@@ -20,6 +20,6 @@ export default function Registration() {
           onChange={(e) => console.log(e.target.value)} // Função para lidar com alterações
         />
       </label>
-    </>
+    </div>
   );
 }
